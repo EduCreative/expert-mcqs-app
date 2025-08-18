@@ -1,0 +1,52 @@
+question,option1,option2,option3,option4,answerIndex,categoryId,subcategoryId,explanation
+What does LAN stand for?,Large Area Network,Local Area Network,Long Area Network,Light Area Network,1,computer,Networks,LAN stands for Local Area Network.
+Which device connects multiple networks together?,Switch,Router,Hub,Repeater,1,computer,Networks,Router connects multiple networks.
+What is the main function of a switch?,Amplify signals,Connect devices in a network,Store data,Print documents,1,computer,Networks,Switch connects devices in a network.
+Which protocol is used for web browsing?,FTP,SMTP,HTTP,SSH,2,computer,Networks,HTTP is used for web browsing.
+What does IP stand for?,Internet Protocol,Internal Program,Input Port,Internet Provider,0,computer,Networks,IP stands for Internet Protocol.
+Which device is used to connect to the internet?,Monitor,Router,Printer,Keyboard,1,computer,Networks,Router connects to the internet.
+What is the full form of Wi-Fi?,Wireless Fidelity,Wired Fidelity,Wide Frequency,Wireless Fiber,0,computer,Networks,Wi-Fi stands for Wireless Fidelity.
+Which is not a network topology?,Star,Bus,Tree,Square,3,computer,Networks,Square is not a network topology.
+Which protocol is used for email?,HTTP,SMTP,FTP,SSH,1,computer,Networks,SMTP is used for email.
+What is the main function of a firewall?,Store data,Block unauthorized access,Print documents,Connect devices,1,computer,Networks,Firewall blocks unauthorized access.
+Which is a wireless network?,LAN,WAN,WLAN,PAN,2,computer,Networks,WLAN is a wireless network.
+What does WAN stand for?,Wide Area Network,Wireless Area Network,Web Area Network,Wire Area Network,0,computer,Networks,WAN stands for Wide Area Network.
+Which device amplifies signals?,Switch,Repeater,Router,Hub,1,computer,Networks,Repeater amplifies signals.
+Which is not a networking device?,Router,Switch,Printer,Hub,2,computer,Networks,Printer is not a networking device.
+Which protocol is used for file transfer?,HTTP,FTP,SMTP,SSH,1,computer,Networks,FTP is used for file transfer.
+What is the unique address of a device on a network called?,Subnet,Gateway,IP Address,Port,2,computer,Networks,IP Address is unique for each device.
+Which is a type of network cable?,HDMI,USB,Coaxial,Audio,2,computer,Networks,Coaxial is a network cable.
+What does DNS stand for?,Domain Name System,Data Network Service,Digital Network System,Domain Network Service,0,computer,Networks,DNS stands for Domain Name System.
+Which is not a protocol?,HTTP,FTP,Excel,SMTP,2,computer,Networks,Excel is not a protocol.
+Which device connects computers in a LAN?,Router,Switch,Printer,Monitor,1,computer,Networks,Switch connects computers in a LAN.
+Which is a network security device?,Router,Firewall,Switch,Hub,1,computer,Networks,Firewall is a security device.
+What is the function of a modem?,Modulate and demodulate signals,Store data,Print documents,Connect devices,0,computer,Networks,Modem modulates and demodulates signals.
+Which is not a type of network?,LAN,WAN,MAN,CPU,3,computer,Networks,CPU is not a network type.
+Which protocol is secure for web browsing?,HTTP,FTP,HTTPS,SMTP,2,computer,Networks,HTTPS is secure for web browsing.
+What is the main function of a hub?,Amplify signals,Connect devices,Store data,Print documents,1,computer,Networks,Hub connects devices.
+Which is a private network?,Internet,Intranet,Extranet,LAN,1,computer,Networks,Intranet is a private network.
+What does MAC stand for in networking?,Media Access Control,Main Access Control,Memory Access Control,Monitor Access Control,0,computer,Networks,MAC stands for Media Access Control.
+Which is not a wireless technology?,Wi-Fi,Bluetooth,LAN,Infrared,2,computer,Networks,LAN is not wireless.
+Which device is used to extend network range?,Switch,Repeater,Router,Hub,1,computer,Networks,Repeater extends network range.
+Which is a network protocol?,Excel,HTTP,Word,PowerPoint,1,computer,Networks,HTTP is a network protocol.
+What is the function of a gateway?,Connect different networks,Store data,Print documents,Amplify signals,0,computer,Networks,Gateway connects different networks.
+Which is not a network device?,Router,Switch,Monitor,Hub,2,computer,Networks,Monitor is not a network device.
+Which protocol is used for secure file transfer?,FTP,SFTP,SMTP,HTTP,1,computer,Networks,SFTP is secure file transfer protocol.
+What is the function of DHCP?,Assign IP addresses,Store data,Print documents,Connect devices,0,computer,Networks,DHCP assigns IP addresses.
+Which is a type of network?,LAN,CPU,Monitor,Printer,0,computer,Networks,LAN is a type of network.
+Which is not a network protocol?,HTTP,FTP,SMTP,Excel,3,computer,Networks,Excel is not a protocol.
+Which device is used for wireless communication?,Router,Switch,Wi-Fi Adapter,Hub,2,computer,Networks,Wi-Fi Adapter is for wireless communication.
+What is the function of a proxy server?,Store data,Act as intermediary,Print documents,Connect devices,1,computer,Networks,Proxy server acts as intermediary.
+Which is not a network topology?,Star,Bus,Tree,Monitor,3,computer,Networks,Monitor is not a topology.
+Which protocol is used for remote login?,FTP,SSH,SMTP,HTTP,1,computer,Networks,SSH is used for remote login.
+What is the function of ARP?,Resolve IP to MAC,Store data,Print documents,Connect devices,0,computer,Networks,ARP resolves IP to MAC address.
+Which is a type of wireless network?,LAN,WLAN,MAN,CPU,1,computer,Networks,WLAN is wireless.
+Which is not a function of a router?,Forward packets,Assign IP,Connect networks,Print documents,3,computer,Networks,Print documents is not a router function.
+Which protocol is used for sending emails?,SMTP,HTTP,FTP,SSH,0,computer,Networks,SMTP is used for sending emails.
+What is the function of NAT?,Translate network addresses,Store data,Print documents,Connect devices,0,computer,Networks,NAT translates network addresses.
+Which is not a type of network cable?,Coaxial,Fiber Optic,HDMI,UTP,2,computer,Networks,HDMI is not a network cable.
+Which device is used to filter traffic?,Firewall,Switch,Router,Hub,0,computer,Networks,Firewall filters traffic.
+Which is a type of network address?,IP,CPU,Monitor,Printer,0,computer,Networks,IP is a network address.
+Which is not a network service?,DNS,DHCP,Excel,FTP,2,computer,Networks,Excel is not a network service.
+Which protocol is used for encrypted communication?,HTTP,HTTPS,FTP,SMTP,1,computer,Networks,HTTPS is for encrypted communication.
+Which is a type of network?,LAN,CPU,Monitor,Printer,0,computer,Networks,LAN is a type of network.

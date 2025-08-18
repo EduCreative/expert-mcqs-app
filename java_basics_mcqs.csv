@@ -1,0 +1,56 @@
+question,option1,option2,option3,option4,answerIndex,categoryId,subcategoryId,explanation
+Who is the creator of Java?,James Gosling,Bjarne Stroustrup,Dennis Ritchie,Guido van Rossum,0,programming,Java-Basics,James Gosling created Java.
+Which keyword is used to define a class in Java?,class,Class,define,struct,0,programming,Java-Basics,'class' is used to define a class.
+Which method is the entry point of a Java program?,start(),main(),run(),init(),1,programming,Java-Basics,main() is the entry point.
+What is the extension of a Java source file?,.java,.class,.js,.cpp,0,programming,Java-Basics,.java is the extension for Java source files.
+Which symbol is used to end a statement in Java?,:,.,;,!,2,programming,Java-Basics,Semicolon (;) ends a statement in Java.
+Which of the following is a valid variable declaration in Java?,int 1num,int num1,int-num,int.num,1,programming,Java-Basics,Variable names cannot start with a digit.
+Which of the following is a valid comment in Java?,// comment,/* comment */,# comment,All of these,3,programming,Java-Basics,Both // and /* */ are valid in Java.
+Which data type is used for whole numbers?,float,char,int,double,2,programming,Java-Basics,int is used for whole numbers.
+Which data type is used for decimal numbers?,int,float,char,boolean,1,programming,Java-Basics,float is used for decimal numbers.
+Which data type is used for single characters?,int,float,char,double,2,programming,Java-Basics,char is used for single characters.
+Which data type is used for true/false values?,int,float,char,boolean,3,programming,Java-Basics,boolean is used for true/false values.
+Which of the following is a loop in Java?,for,while,do-while,All of these,3,programming,Java-Basics,All are loops in Java.
+Which statement is used to make decisions in Java?,if,switch,both,none,2,programming,Java-Basics,if and switch are used for decisions.
+Which keyword is used to define a constant in Java?,const,final,define,static,1,programming,Java-Basics,final is used for constants.
+Which of the following is a valid main method signature?,public static void main(String[] args),void main(),public void main(),static void main(),0,programming,Java-Basics,public static void main(String[] args) is correct.
+Which of the following is a valid array declaration?,int[] arr,int arr[],int arr(),int arr<>,0,programming,Java-Basics,int[] arr is correct.
+Which of the following is a valid for loop?,for(int i=0;i<5;i++),for i=0 to 5,for(i=0;i<5;i+),for i in range(5),0,programming,Java-Basics,for(int i=0;i<5;i++) is correct.
+Which of the following is a valid while loop?,while(i<5),while i<5,while(i=5),while i==5,0,programming,Java-Basics,while(i<5) is correct.
+Which of the following is a valid do-while loop?,do{}while(i<5);,do()while{i<5},do while(i<5),do{}while i<5,0,programming,Java-Basics,do{}while(i<5); is correct.
+Which of the following is a valid if statement?,if(x==5),if x=5,if(x=5),if x==5,0,programming,Java-Basics,if(x==5) is correct.
+Which of the following is a valid switch statement?,switch(x),switch x,switch{x},switch[x],0,programming,Java-Basics,switch(x) is correct.
+Which of the following is a valid break statement?,break;,break,break(),break[],0,programming,Java-Basics,break; is correct.
+Which of the following is a valid continue statement?,continue;,continue,continue(),continue[],0,programming,Java-Basics,continue; is correct.
+Which of the following is a valid return statement?,return x;,return;x,return(x),return;x,0,programming,Java-Basics,return x; is correct.
+Which of the following is a valid function call?,fun(),call fun(),fun,fun[],0,programming,Java-Basics,fun() is correct.
+Which of the following is a valid class declaration?,class C{},class C[],class C(),class C<>,0,programming,Java-Basics,class C{} is correct.
+Which of the following is a valid object creation?,C obj = new C();,C obj(),C obj[],C obj<>,0,programming,Java-Basics,C obj = new C(); is correct.
+Which of the following is a valid access modifier?,public,private,protected,All of these,3,programming,Java-Basics,All are access modifiers.
+Which of the following is a valid constructor?,C(){},C[],C(),C<>,0,programming,Java-Basics,C(){} is correct.
+Which of the following is a valid method declaration?,void fun(){},fun void(){},void fun,void:fun(),0,programming,Java-Basics,void fun(){} is correct.
+Which of the following is a valid package declaration?,package mypack;,package:mypack;,pack mypack;,package = mypack;,0,programming,Java-Basics,package mypack; is correct.
+Which of the following is a valid import statement?,import java.util.*;,import util.java.*,import java.util,import:java.util.*,0,programming,Java-Basics,import java.util.*; is correct.
+Which of the following is a valid static method?,static void fun(){},void static fun(){},static fun(){},void fun static(){},0,programming,Java-Basics,static void fun(){} is correct.
+Which of the following is a valid interface declaration?,interface I{},interface I[],interface I(),interface I<>,0,programming,Java-Basics,interface I{} is correct.
+Which of the following is a valid inheritance in Java?,class B extends A,class B : A,class B implements A,class B inherits A,0,programming,Java-Basics,class B extends A is correct.
+Which of the following is a valid implementation of an interface?,class C implements I{},class C extends I{},class C : I{},class C inherits I{},0,programming,Java-Basics,class C implements I{} is correct.
+Which of the following is a valid method override?,@Override void fun(){},override void fun(){},void fun() override,void override fun(){},0,programming,Java-Basics,@Override void fun(){} is correct.
+Which of the following is a valid string declaration?,String s = "Hello";,String s = 'Hello';,String s = Hello;,String s = new String;,0,programming,Java-Basics,String s = "Hello"; is correct.
+Which of the following is a valid char declaration?,char c = 'A';,char c = "A";,char c = A;,char c = new char;,0,programming,Java-Basics,char c = 'A'; is correct.
+Which of the following is a valid boolean declaration?,boolean b = true;,boolean b = 1;,boolean b = "true";,boolean b = yes;,0,programming,Java-Basics,boolean b = true; is correct.
+Which of the following is a valid array length access?,arr.length,arr.length(),arr.size,arr.size(),0,programming,Java-Basics,arr.length is correct.
+Which of the following is a valid string length access?,s.length(),s.length,s.size(),s.size,0,programming,Java-Basics,s.length() is correct.
+Which of the following is a valid scanner declaration?,Scanner sc = new Scanner(System.in);,Scanner sc = Scanner(System.in);,Scanner sc = new Scanner;,Scanner sc = new Scanner(),0,programming,Java-Basics,Scanner sc = new Scanner(System.in); is correct.
+Which of the following is a valid input statement?,sc.nextInt(),sc.input(),input(),cin >> x;,0,programming,Java-Basics,sc.nextInt() is correct.
+Which of the following is a valid print statement?,System.out.println("Hello");,print("Hello");,cout << "Hello";,printf("Hello");,0,programming,Java-Basics,System.out.println("Hello"); is correct.
+Which of the following is a valid exception handling block?,try-catch,try-except,try-finally,try-catch-finally,3,programming,Java-Basics,try-catch-finally is valid in Java.
+Which of the following is a valid array initialization?,int[] arr = {1,2,3};,int arr[] = (1,2,3);,int arr = [1,2,3];,int arr = {1,2,3};,0,programming,Java-Basics,int[] arr = {1,2,3}; is correct.
+Which of the following is a valid method call?,obj.fun(),fun(obj),obj->fun(),obj:fun(),0,programming,Java-Basics,obj.fun() is correct.
+Which of the following is a valid static variable declaration?,static int x;,int static x;,static x int;,int x static;,0,programming,Java-Basics,static int x; is correct.
+Which of the following is a valid final variable declaration?,final int x = 5;,int final x = 5;,final x int = 5;,int x final = 5;,0,programming,Java-Basics,final int x = 5; is correct.
+Which of the following is a valid method overloading?,void fun(),void fun(int x),void fun(double x),All of these,3,programming,Java-Basics,All are valid method overloading.
+Which of the following is a valid access to superclass method?,super.fun(),base.fun(),parent.fun(),superclass.fun(),0,programming,Java-Basics,super.fun() is correct.
+Which of the following is a valid interface implementation?,class A implements I{},class A extends I{},class A : I{},class A inherits I{},0,programming,Java-Basics,class A implements I{} is correct.
+Which of the following is a valid package import?,import java.util.*;,import util.java.*,import java.util,import:java.util.*,0,programming,Java-Basics,import java.util.*; is correct.
+Which of the following is a valid method signature?,public void fun(),void fun(),public static void fun(),All of these,3,programming,Java-Basics,All are valid method signatures.

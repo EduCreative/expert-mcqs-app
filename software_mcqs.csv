@@ -1,0 +1,53 @@
+question,option1,option2,option3,option4,answerIndex,categoryId,subcategoryId,explanation
+Which is an example of system software?,MS Word,Windows,Photoshop,Chrome,1,computer,software,Windows is an operating system, a type of system software.
+Which is used to browse the internet?,Excel,Chrome,Paint,Notepad,1,computer,software,Chrome is a web browser.
+Which is a word processing software?,Excel,PowerPoint,MS Word,Paint,2,computer,software,MS Word is used for word processing.
+Which is used for creating presentations?,Excel,PowerPoint,Notepad,Paint,1,computer,software,PowerPoint is used for presentations.
+Which is an example of application software?,Windows,MS Word,BIOS,Device Driver,1,computer,software,MS Word is application software.
+Which is used for calculations?,Paint,Excel,Notepad,Chrome,1,computer,software,Excel is used for calculations.
+Which is not an operating system?,Windows,Android,Photoshop,Linux,2,computer,software,Photoshop is not an OS.
+Which is used to edit images?,Excel,Paint,Notepad,Chrome,1,computer,software,Paint is used for image editing.
+Which is a spreadsheet software?,Excel,Word,PowerPoint,Paint,0,computer,software,Excel is a spreadsheet software.
+Which is not a type of software?,System,Application,Hardware,Utility,2,computer,software,Hardware is not software.
+Which is used to write code?,Notepad,MS Word,IDE,Paint,2,computer,software,IDE (Integrated Development Environment) is used for coding.
+Which is an example of utility software?,Antivirus,Windows,Excel,Paint,0,computer,software,Antivirus is utility software.
+Which is not a programming language?,Python,Java,HTML,Windows,3,computer,software,Windows is not a programming language.
+Which is used to compress files?,WinRAR,Excel,Paint,Chrome,0,computer,software,WinRAR is used for file compression.
+Which is used to play videos?,VLC,Excel,Word,Paint,0,computer,software,VLC is a media player.
+Which is not a web browser?,Chrome,Firefox,Excel,Edge,2,computer,software,Excel is not a browser.
+Which is used for email?,Outlook,Paint,Excel,Notepad,0,computer,software,Outlook is used for email.
+Which is an open-source OS?,Windows,MacOS,Linux,Photoshop,2,computer,software,Linux is open-source.
+Which is used for drawing?,Paint,Excel,Word,Chrome,0,computer,software,Paint is used for drawing.
+Which is not a type of application software?,Word Processor,Spreadsheet,Operating System,Presentation,2,computer,software,Operating System is system software.
+Which is used to manage files?,File Explorer,Paint,Excel,Word,0,computer,software,File Explorer manages files.
+Which is not a system software?,BIOS,Device Driver,MS Word,Windows,2,computer,software,MS Word is not system software.
+Which is used for video conferencing?,Zoom,Paint,Excel,Word,0,computer,software,Zoom is used for video conferencing.
+Which is a database software?,Excel,Access,Paint,Chrome,1,computer,software,Access is a database software.
+Which is not a utility software?,Antivirus,Disk Cleaner,Excel,Backup,2,computer,software,Excel is not utility software.
+Which is used to create graphics?,Paint,Excel,Word,Chrome,0,computer,software,Paint is used for graphics.
+Which is not an example of application software?,Word,Excel,BIOS,PowerPoint,2,computer,software,BIOS is not application software.
+Which is used to unzip files?,WinZip,Excel,Paint,Chrome,0,computer,software,WinZip is used to unzip files.
+Which is a type of software license?,Freeware,Monitor,Mouse,Keyboard,0,computer,software,Freeware is a software license type.
+Which is not a software?,Windows,Excel,CPU,Paint,2,computer,software,CPU is hardware.
+Which is used for browsing files?,File Explorer,Paint,Excel,Word,0,computer,software,File Explorer is used for browsing files.
+Which is not a type of operating system?,Windows,Linux,Excel,MacOS,2,computer,software,Excel is not an OS.
+Which is used for editing videos?,VLC,Excel,Word,Filmora,3,computer,software,Filmora is used for video editing.
+Which is not a type of utility software?,Antivirus,Disk Cleaner,Excel,Backup,2,computer,software,Excel is not utility software.
+Which is used for creating spreadsheets?,Excel,Word,Paint,Chrome,0,computer,software,Excel is used for spreadsheets.
+Which is not a programming language?,Python,Java,HTML,Monitor,3,computer,software,Monitor is hardware.
+Which is used for creating documents?,Word,Excel,Paint,Chrome,0,computer,software,Word is used for documents.
+Which is not a type of software?,System,Application,Utility,Monitor,3,computer,software,Monitor is hardware.
+Which is used for antivirus protection?,Norton,Excel,Paint,Chrome,0,computer,software,Norton is antivirus software.
+Which is not a type of file?,.docx,.xlsx,.exe,Monitor,3,computer,software,Monitor is not a file type.
+Which is used for creating slides?,PowerPoint,Excel,Word,Paint,0,computer,software,PowerPoint is used for slides.
+Which is not a type of software license?,Freeware,Shareware,Hardware,Open Source,2,computer,software,Hardware is not a software license.
+Which is used for coding?,IDE,Excel,Paint,Chrome,0,computer,software,IDE is used for coding.
+Which is not a type of application software?,Word,Excel,BIOS,PowerPoint,2,computer,software,BIOS is not application software.
+Which is used for managing emails?,Outlook,Excel,Paint,Chrome,0,computer,software,Outlook manages emails.
+Which is not a type of system software?,Operating System,Device Driver,Word,BIOS,2,computer,software,Word is not system software.
+Which is used for browsing the web?,Chrome,Excel,Paint,Word,0,computer,software,Chrome is used for web browsing.
+Which is not a type of utility software?,Antivirus,Disk Cleaner,Excel,Backup,2,computer,software,Excel is not utility software.
+Which is used for creating databases?,Access,Excel,Paint,Chrome,0,computer,software,Access is used for databases.
+Which is not a type of software?,System,Application,Utility,Mouse,3,computer,software,Mouse is hardware.
+Which is used for editing text?,Notepad,Excel,Paint,Chrome,0,computer,software,Notepad is used for editing text.
+Which is not a type of application software?,Word,Excel,BIOS,PowerPoint,2,computer,software,BIOS is not application software.

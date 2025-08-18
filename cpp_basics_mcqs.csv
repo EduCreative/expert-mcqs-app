@@ -1,0 +1,53 @@
+question,option1,option2,option3,option4,answerIndex,categoryId,subcategoryId,explanation
+Who is the creator of C++?,Dennis Ritchie,Bjarne Stroustrup,James Gosling,Guido van Rossum,1,programming,C++Basics,Bjarne Stroustrup created C++.
+Which symbol is used to end a statement in C++?,:,.,;,!,2,programming,C++Basics,Semicolon (;) ends a statement in C++.
+Which of the following is a correct variable declaration in C++?,int 1num,int num1,int-num,int.num,1,programming,C++Basics,Variable names cannot start with a digit.
+Which header file is needed for input/output in C++?,#include <math.h>,#include <iostream>,#include <stdio.h>,#include <conio.h>,1,programming,C++Basics,#include <iostream> is used for input/output.
+Which operator is used for input in C++?,>>,<<,==,=,0,programming,C++Basics,>> is the extraction operator for input.
+Which operator is used for output in C++?,>>,<<,==,=,1,programming,C++Basics,<< is the insertion operator for output.
+Which function is used to print output in C++?,print(),cout,printf(),output(),1,programming,C++Basics,cout is used for output in C++.
+Which function is used to take input in C++?,input(),cin,scanf(),get(),1,programming,C++Basics,cin is used for input in C++.
+Which of the following is a valid comment in C++?,// comment,/* comment */,# comment,All of these,3,programming,C++Basics,Both // and /* */ are valid in C++.
+Which data type is used for whole numbers?,float,char,int,double,2,programming,C++Basics,int is used for whole numbers.
+Which data type is used for decimal numbers?,int,float,char,bool,1,programming,C++Basics,float is used for decimal numbers.
+Which data type is used for single characters?,int,float,char,double,2,programming,C++Basics,char is used for single characters.
+Which data type is used for true/false values?,int,float,char,bool,3,programming,C++Basics,bool is used for boolean values.
+What is the extension of a C++ source file?,.c,.cpp,.java,.py,1,programming,C++Basics,.cpp is the extension for C++ files.
+Which of the following is a loop in C++?,for,while,do-while,All of these,3,programming,C++Basics,All are loops in C++.
+Which statement is used to make decisions in C++?,if,switch,both,none,2,programming,C++Basics,if and switch are used for decisions.
+Which keyword is used to define a constant?,const,constant,define,static,0,programming,C++Basics,const is used for constants.
+Which function is the entry point of a C++ program?,start(),main(),begin(),entry(),1,programming,C++Basics,main() is the entry point.
+Which symbol is used for single-line comments?,//,/*,#,<!--,0,programming,C++Basics,// is for single-line comments.
+Which symbol is used for multi-line comments?,//,/* */,##,<!--,1,programming,C++Basics,/* */ is for multi-line comments.
+Which of the following is a relational operator?,+,=,==,*,2,programming,C++Basics,== is a relational operator.
+Which of the following is a logical operator?,&&,||,!,All of these,3,programming,C++Basics,All are logical operators.
+Which keyword is used to return a value from a function?,return,give,output,send,0,programming,C++Basics,return is used to return values.
+Which of the following is a valid identifier?,1value,value1,value-1,value.1,1,programming,C++Basics,Identifiers cannot start with a digit.
+Which of the following is a valid assignment?,int x = 5,int x == 5,int x := 5,int x => 5,0,programming,C++Basics,= is used for assignment.
+Which of the following is a valid function declaration?,void fun(),fun void(),void fun,void:fun(),0,programming,C++Basics,void fun() is correct.
+Which of the following is a valid array declaration?,int arr[5],int arr(5),int arr{5},int arr<5>,0,programming,C++Basics,int arr[5] is correct.
+Which of the following is a valid for loop?,for(int i=0;i<5;i++),for i=0 to 5,for(i=0;i<5;i+),for i in range(5),0,programming,C++Basics,for(int i=0;i<5;i++) is correct.
+Which of the following is a valid while loop?,while(i<5),while i<5,while(i=5),while i==5,0,programming,C++Basics,while(i<5) is correct.
+Which of the following is a valid do-while loop?,do{}while(i<5);,do()while{i<5},do while(i<5),do{}while i<5,0,programming,C++Basics,do{}while(i<5); is correct.
+Which of the following is a valid if statement?,if(x==5),if x=5,if(x=5),if x==5,0,programming,C++Basics,if(x==5) is correct.
+Which of the following is a valid switch statement?,switch(x),switch x,switch{x},switch[x],0,programming,C++Basics,switch(x) is correct.
+Which of the following is a valid break statement?,break;,break,break(),break[],0,programming,C++Basics,break; is correct.
+Which of the following is a valid continue statement?,continue;,continue,continue(),continue[],0,programming,C++Basics,continue; is correct.
+Which of the following is a valid return statement?,return x;,return;x,return(x),return;x,0,programming,C++Basics,return x; is correct.
+Which of the following is a valid function call?,fun(),call fun(),fun,fun[],0,programming,C++Basics,fun() is correct.
+Which of the following is a valid structure declaration?,struct S{},structure S{},struct S[],struct S(),0,programming,C++Basics,struct S{} is correct.
+Which of the following is a valid class declaration?,class C{},class C[],class C(),class C<>,0,programming,C++Basics,class C{} is correct.
+Which of the following is a valid object creation?,C obj;,C obj(),C obj[],C obj<>,0,programming,C++Basics,C obj; is correct.
+Which of the following is a valid access specifier?,public,private,protected,All of these,3,programming,C++Basics,All are access specifiers.
+Which of the following is a valid constructor?,C(){},C[],C(),C<>,0,programming,C++Basics,C(){} is correct.
+Which of the following is a valid destructor?,~C(){},~C[],~C(),~C<>,0,programming,C++Basics,~C(){} is correct.
+Which of the following is a valid pointer declaration?,int *p;,int p*,int *p,*,0,programming,C++Basics,int *p; is correct.
+Which of the following is a valid reference declaration?,int &r;,int r&,int &r,int r&,0,programming,C++Basics,int &r; is correct.
+Which of the following is a valid namespace declaration?,namespace ns{},namespace ns[],namespace ns(),namespace ns<>,0,programming,C++Basics,namespace ns{} is correct.
+Which of the following is a valid using statement?,using namespace std;,using std namespace;,using std;,using namespace;,0,programming,C++Basics,using namespace std; is correct.
+Which of the following is a valid endl statement?,cout << endl;,cout << end;,cout << endline;,cout << newline;,0,programming,C++Basics,cout << endl; is correct.
+Which of the following is a valid include statement?,#include <iostream>,#include iostream,#include "iostream",#include iostream.h,0,programming,C++Basics,#include <iostream> is correct.
+Which of the following is a valid main function?,int main(){},void main(){},main(){},int main[],0,programming,C++Basics,int main(){} is correct.
+Which of the following is a valid return type for main?,int,void,char,float,0,programming,C++Basics,int is the correct return type for main.
+Which of the following is a valid cout statement?,cout << "Hello";,cout << Hello;,cout << 'Hello';,cout << Hello,0,programming,C++Basics,cout << "Hello"; is correct.
+Which of the following is a valid cin statement?,cin >> x;,cin << x;,cin = x;,cin x;,0,programming,C++Basics,cin >> x; is correct.

@@ -1,0 +1,53 @@
+question,option1,option2,option3,option4,answerIndex,categoryId,subcategoryId,explanation
+Which language is commonly used for backend development?,HTML,JavaScript,Python,CSS,2,programming,backend,Python is commonly used for backend development.
+Which database is relational?,MongoDB,MySQL,Redis,Cassandra,1,programming,backend,MySQL is a relational database.
+Which protocol is used for web communication?,HTTP,FTP,SMTP,SSH,0,programming,backend,HTTP is used for web communication.
+Which language is used for server-side scripting?,PHP,HTML,CSS,XML,0,programming,backend,PHP is used for server-side scripting.
+Which is a backend framework for Node.js?,React,Angular,Express,Django,2,programming,backend,Express is a backend framework for Node.js.
+Which is a backend framework for Python?,Flask,Vue,React,Angular,0,programming,backend,Flask is a backend framework for Python.
+Which is a backend framework for Java?,Spring,React,Vue,Angular,0,programming,backend,Spring is a backend framework for Java.
+Which is a NoSQL database?,MySQL,PostgreSQL,MongoDB,Oracle,2,programming,backend,MongoDB is a NoSQL database.
+Which is used to store data persistently?,RAM,Cache,Database,Stack,2,programming,backend,Database stores data persistently.
+Which is used to create REST APIs?,Express,React,HTML,CSS,0,programming,backend,Express is used to create REST APIs.
+Which is used for authentication?,JWT,HTML,CSS,XML,0,programming,backend,JWT is used for authentication.
+Which is used for password hashing?,bcrypt,HTML,CSS,XML,0,programming,backend,bcrypt is used for password hashing.
+Which is used for version control?,Git,HTML,CSS,XML,0,programming,backend,Git is used for version control.
+Which is used for package management in Node.js?,npm,pip,composer,gem,0,programming,backend,npm is used for package management in Node.js.
+Which is used for package management in Python?,npm,pip,composer,gem,1,programming,backend,pip is used for package management in Python.
+Which is used for package management in PHP?,npm,pip,composer,gem,2,programming,backend,composer is used for package management in PHP.
+Which is used for package management in Ruby?,npm,pip,composer,gem,3,programming,backend,gem is used for package management in Ruby.
+Which is used for environment variables?,.env,.var,.config,.settings,0,programming,backend,.env is used for environment variables.
+Which is used for API documentation?,Swagger,HTML,CSS,XML,0,programming,backend,Swagger is used for API documentation.
+Which is used for database migration?,Sequelize,React,Vue,Angular,0,programming,backend,Sequelize is used for database migration.
+Which is used for database migration in Python?,Alembic,React,Vue,Angular,0,programming,backend,Alembic is used for database migration in Python.
+Which is used for database migration in PHP?,Phinx,React,Vue,Angular,0,programming,backend,Phinx is used for database migration in PHP.
+Which is used for database migration in Ruby?,ActiveRecord,React,Vue,Angular,0,programming,backend,ActiveRecord is used for database migration in Ruby.
+Which is used for database migration in Java?,Flyway,React,Vue,Angular,0,programming,backend,Flyway is used for database migration in Java.
+Which is used for database migration in .NET?,EF Core,React,Vue,Angular,0,programming,backend,EF Core is used for database migration in .NET.
+Which is used for database migration in Node.js?,Knex,React,Vue,Angular,0,programming,backend,Knex is used for database migration in Node.js.
+Which is used for database migration in Go?,Goose,React,Vue,Angular,0,programming,backend,Goose is used for database migration in Go.
+Which is used for database migration in Elixir?,Ecto,React,Vue,Angular,0,programming,backend,Ecto is used for database migration in Elixir.
+Which is used for database migration in Rust?,SeaORM,React,Vue,Angular,0,programming,backend,SeaORM is used for database migration in Rust.
+Which is used for database migration in Scala?,Slick,React,Vue,Angular,0,programming,backend,Slick is used for database migration in Scala.
+Which is used for database migration in Kotlin?,Exposed,React,Vue,Angular,0,programming,backend,Exposed is used for database migration in Kotlin.
+Which is used for database migration in Swift?,CoreData,React,Vue,Angular,0,programming,backend,CoreData is used for database migration in Swift.
+Which is used for database migration in Dart?,Drift,React,Vue,Angular,0,programming,backend,Drift is used for database migration in Dart.
+Which is used for database migration in Clojure?,Migratus,React,Vue,Angular,0,programming,backend,Migratus is used for database migration in Clojure.
+Which is used for database migration in Haskell?,Persistent,React,Vue,Angular,0,programming,backend,Persistent is used for database migration in Haskell.
+Which is used for database migration in Perl?,DBIx::Class,React,Vue,Angular,0,programming,backend,DBIx::Class is used for database migration in Perl.
+Which is used for database migration in PHP?,Doctrine,React,Vue,Angular,0,programming,backend,Doctrine is used for database migration in PHP.
+Which is used for database migration in JavaScript?,TypeORM,React,Vue,Angular,0,programming,backend,TypeORM is used for database migration in JavaScript.
+Which is used for database migration in C#?,FluentMigrator,React,Vue,Angular,0,programming,backend,FluentMigrator is used for database migration in C#.
+Which is used for database migration in F#?,SimpleMigrations,React,Vue,Angular,0,programming,backend,SimpleMigrations is used for database migration in F#.
+Which is used for database migration in Erlang?,Ecto,React,Vue,Angular,0,programming,backend,Ecto is used for database migration in Erlang.
+Which is used for database migration in Julia?,SQLite,React,Vue,Angular,0,programming,backend,SQLite is used for database migration in Julia.
+Which is used for database migration in Lua?,Lapis,React,Vue,Angular,0,programming,backend,Lapis is used for database migration in Lua.
+Which is used for database migration in Objective-C?,CoreData,React,Vue,Angular,0,programming,backend,CoreData is used for database migration in Objective-C.
+Which is used for database migration in PHP?,Laravel,React,Vue,Angular,0,programming,backend,Laravel is used for database migration in PHP.
+Which is used for database migration in Python?,Django,React,Vue,Angular,0,programming,backend,Django is used for database migration in Python.
+Which is used for database migration in Ruby?,Rails,React,Vue,Angular,0,programming,backend,Rails is used for database migration in Ruby.
+Which is used for database migration in Scala?,Play,React,Vue,Angular,0,programming,backend,Play is used for database migration in Scala.
+Which is used for database migration in Swift?,Realm,React,Vue,Angular,0,programming,backend,Realm is used for database migration in Swift.
+Which is used for database migration in TypeScript?,TypeORM,React,Vue,Angular,0,programming,backend,TypeORM is used for database migration in TypeScript.
+Which is used for database migration in VB.NET?,Entity Framework,React,Vue,Angular,0,programming,backend,Entity Framework is used for database migration in VB.NET.
+Which is used for database migration in Visual Basic?,Entity Framework,React,Vue,Angular,0,programming,backend,Entity Framework is used for database migration in Visual Basic.

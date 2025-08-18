@@ -1,0 +1,56 @@
+question,option1,option2,option3,option4,answerIndex,categoryId,subcategoryId,explanation
+Who is the creator of Python?,Guido van Rossum,James Gosling,Bjarne Stroustrup,Dennis Ritchie,0,programming,python-basics,Guido van Rossum created Python.
+Which symbol is used to start a comment in Python?,//,#,/*,<!--,1,programming,python-basics,# is used for comments in Python.
+Which function is used to print output in Python?,print(),echo(),printf(),cout,0,programming,python-basics,print() is used for output in Python.
+Which function is used to take input in Python?,input(),scanf(),cin(),get(),0,programming,python-basics,input() is used for input in Python.
+What is the extension of a Python file?,.py,.java,.cpp,.js,0,programming,python-basics,.py is the extension for Python files.
+Which of the following is a valid variable name?,1num,num1,num-1,num.1,1,programming,python-basics,Variable names cannot start with a digit.
+Which of the following is a valid string declaration?,s = "Hello",s = 'Hello',s = Hello,s = new String,0,programming,python-basics,s = "Hello" is correct.
+Which of the following is a valid integer declaration?,x = 5,int x = 5,x := 5,x => 5,0,programming,python-basics,x = 5 is correct.
+Which of the following is a valid float declaration?,x = 5.0,float x = 5.0,x := 5.0,x => 5.0,0,programming,python-basics,x = 5.0 is correct.
+Which of the following is a valid list declaration?,lst = [1,2,3],lst = (1,2,3),lst = {1,2,3},lst = <1,2,3>,0,programming,python-basics,lst = [1,2,3] is correct.
+Which of the following is a valid tuple declaration?,t = (1,2,3),t = [1,2,3],t = {1,2,3},t = <1,2,3>,0,programming,python-basics,t = (1,2,3) is correct.
+Which of the following is a valid dictionary declaration?,d = {"a":1},d = ["a":1],d = ("a":1),d = <"a":1>,0,programming,python-basics,d = {"a":1} is correct.
+Which of the following is a valid set declaration?,s = {1,2,3},s = [1,2,3],s = (1,2,3),s = <1,2,3>,0,programming,python-basics,s = {1,2,3} is correct.
+Which of the following is a valid for loop?,for i in range(5):,for(int i=0;i<5;i++),for i=0 to 5,for i in 1..5,0,programming,python-basics,for i in range(5): is correct.
+Which of the following is a valid while loop?,while x < 5:,while(x<5),while x=5,while x==5,0,programming,python-basics,while x < 5: is correct.
+Which of the following is a valid if statement?,if x == 5:,if(x==5),if x=5,if x==5,0,programming,python-basics,if x == 5: is correct.
+Which of the following is a valid function definition?,def fun():,function fun(),fun def():,def:fun(),0,programming,python-basics,def fun(): is correct.
+Which of the following is a valid return statement?,return x,return;x,return(x),return;x,0,programming,python-basics,return x is correct.
+Which of the following is a valid import statement?,import math,import:math,math import,import-math,0,programming,python-basics,import math is correct.
+Which of the following is a valid class declaration?,class C:,class C{},class C(),class C<>,0,programming,python-basics,class C: is correct.
+Which of the following is a valid object creation?,obj = C(),C obj = new C(),obj = new C(),C obj(),0,programming,python-basics,obj = C() is correct.
+Which of the following is a valid method call?,obj.fun(),fun(obj),obj->fun(),obj:fun(),0,programming,python-basics,obj.fun() is correct.
+Which of the following is a valid attribute access?,obj.x,obj->x,obj:x,obj[x],0,programming,python-basics,obj.x is correct.
+Which of the following is a valid inheritance in Python?,class B(A):,class B extends A,class B : A,class B inherits A,0,programming,python-basics,class B(A): is correct.
+Which of the following is a valid super() call?,super().__init__(),super.init(),super(),super.init,0,programming,python-basics,super().__init__() is correct.
+Which of the following is a valid try-except block?,try: ... except: ...,try: ... catch: ...,try: ... except ...:,try ... except ...,0,programming,python-basics,try: ... except: ... is correct.
+Which of the following is a valid list append?,lst.append(1),append(lst,1),lst.add(1),lst.push(1),0,programming,python-basics,lst.append(1) is correct.
+Which of the following is a valid list length access?,len(lst),lst.length(),lst.size(),lst.len(),0,programming,python-basics,len(lst) is correct.
+Which of the following is a valid string length access?,len(s),s.length(),s.size(),s.len(),0,programming,python-basics,len(s) is correct.
+Which of the following is a valid string concatenation?,s1 + s2,s1.concat(s2),concat(s1,s2),s1 & s2,0,programming,python-basics,s1 + s2 is correct.
+Which of the following is a valid input statement?,input(),scanf(),cin(),get(),0,programming,python-basics,input() is correct.
+Which of the following is a valid print statement?,print("Hello"),echo("Hello"),printf("Hello"),cout << "Hello",0,programming,python-basics,print("Hello") is correct.
+Which of the following is a valid exception handling block?,try-except,try-catch,try-finally,try-except-finally,3,programming,python-basics,try-except-finally is valid in Python.
+Which of the following is a valid list slicing?,lst[1:3],lst(1:3),lst{1:3},lst<1:3>,0,programming,python-basics,lst[1:3] is correct.
+Which of the following is a valid dictionary access?,d["a"],d.a,d[0],d(a),0,programming,python-basics,d["a"] is correct.
+Which of the following is a valid set add?,s.add(1),add(s,1),s.append(1),s.push(1),0,programming,python-basics,s.add(1) is correct.
+Which of the following is a valid for-else loop?,for i in range(5): ... else: ...,for i in range(5): ... else ...,for i in range(5) else: ...,for i in range(5): else ...,0,programming,python-basics,for i in range(5): ... else: ... is correct.
+Which of the following is a valid break statement?,break,break;,break(),break[],0,programming,python-basics,break is correct.
+Which of the following is a valid continue statement?,continue,continue;,continue(),continue[],0,programming,python-basics,continue is correct.
+Which of the following is a valid pass statement?,pass,pass;,pass(),pass[],0,programming,python-basics,pass is correct.
+Which of the following is a valid global variable declaration?,global x,declare x global,global: x,global.x,0,programming,python-basics,global x is correct.
+Which of the following is a valid lambda function?,lambda x: x+1,lambda(x): x+1,lambda x = x+1,lambda x -> x+1,0,programming,python-basics,lambda x: x+1 is correct.
+Which of the following is a valid list comprehension?,[x for x in range(5)],(x for x in range(5)),{x for x in range(5)},<x for x in range(5)>,0,programming,python-basics,[x for x in range(5)] is correct.
+Which of the following is a valid import alias?,import math as m,import math alias m,import math = m,import math -> m,0,programming,python-basics,import math as m is correct.
+Which of the following is a valid with statement?,with open("file.txt") as f:,with open("file.txt") as f,with open("file.txt") as: f,with open("file.txt") f as:,0,programming,python-basics,with open("file.txt") as f: is correct.
+Which of the following is a valid raise statement?,raise Exception(),raise Exception,raise: Exception(),raise Exception[],0,programming,python-basics,raise Exception() is correct.
+Which of the following is a valid assert statement?,assert x == 5,assert(x == 5),assert x = 5,assert x == 5;,0,programming,python-basics,assert x == 5 is correct.
+Which of the following is a valid del statement?,del x,delete x,del(x),del.x,0,programming,python-basics,del x is correct.
+Which of the following is a valid isinstance check?,isinstance(x, int),isinstance(x, int()),isinstance(x, type),isinstance(x, int, float),0,programming,python-basics,isinstance(x, int) is correct.
+Which of the following is a valid type check?,type(x),type x,type(x()),type.x,0,programming,python-basics,type(x) is correct.
+Which of the following is a valid zip usage?,zip([1,2],[3,4]),zip([1,2],[3,4]),zip([1,2],[3,4]),zip([1,2],[3,4]),0,programming,python-basics,zip([1,2],[3,4]) is correct.
+Which of the following is a valid enumerate usage?,enumerate([1,2,3]),enumerate([1,2,3]),enumerate([1,2,3]),enumerate([1,2,3]),0,programming,python-basics,enumerate([1,2,3]) is correct.
+Which of the following is a valid map usage?,map(str, [1,2,3]),map(str, [1,2,3]),map(str, [1,2,3]),map(str, [1,2,3]),0,programming,python-basics,map(str, [1,2,3]) is correct.
+Which of the following is a valid filter usage?,filter(lambda x: x>0, [1,2,3]),filter(lambda x: x>0, [1,2,3]),filter(lambda x: x>0, [1,2,3]),filter(lambda x: x>0, [1,2,3]),0,programming,python-basics,filter(lambda x: x>0, [1,2,3]) is correct.
+Which of the following is a valid sorted usage?,sorted([3,1,2]),sorted([3,1,2]),sorted([3,1,2]),sorted([3,1,2]),0,programming,python-basics,sorted([3,1,2]) is correct.

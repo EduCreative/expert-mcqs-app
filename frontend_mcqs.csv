@@ -1,0 +1,52 @@
+question,option1,option2,option3,option4,answerIndex,categoryId,subcategoryId,explanation
+Which programming language is used for web development?,C++,Java,Python,JavaScript,3,programming,frontend,JavaScript is the primary language for frontend web development.
+Which tag is used for the largest heading in HTML?,<h1>,<h2>,<h3>,<title>,0,programming,frontend,<h1> is used for the largest heading in HTML.
+Which property is used to change text color in CSS?,color,font-color,text-color,background,0,programming,frontend,'color' changes text color in CSS.
+Which HTML tag is used to create a link?,<a>,<link>,<href>,<url>,0,programming,frontend,<a> is used for links.
+Which CSS property sets the background color?,background-color,color,bgcolor,background,0,programming,frontend,'background-color' sets background color.
+Which HTML tag is used for a line break?,<br>,<lb>,<break>,<line>,0,programming,frontend,<br> is for line breaks.
+Which attribute is used for image source in HTML?,src,href,alt,link,0,programming,frontend,'src' is used for image source.
+Which tag is used for an unordered list?,<ul>,<ol>,<li>,<list>,0,programming,frontend,<ul> is for unordered lists.
+Which tag is used for a table row?,<tr>,<td>,<th>,<table>,0,programming,frontend,<tr> is for table rows.
+Which tag is used for a table cell?,<td>,<tr>,<th>,<table>,0,programming,frontend,<td> is for table cells.
+Which tag is used for a table header?,<th>,<td>,<tr>,<thead>,0,programming,frontend,<th> is for table headers.
+Which CSS property sets the font size?,font-size,text-size,size,font,0,programming,frontend,'font-size' sets font size.
+Which HTML tag is used for a form?,<form>,<input>,<button>,<label>,0,programming,frontend,<form> is for forms.
+Which input type is used for passwords?,password,secret,hidden,text,0,programming,frontend,'password' is the input type for passwords.
+Which tag is used for a checkbox?,<input type="checkbox">,<checkbox>,<input type="box">,<check>,0,programming,frontend,<input type="checkbox"> is correct.
+Which tag is used for a radio button?,<input type="radio">,<radio>,<input type="button">,<check>,0,programming,frontend,<input type="radio"> is correct.
+Which CSS property sets the margin?,margin,padding,space,offset,0,programming,frontend,'margin' sets the margin.
+Which CSS property sets the padding?,padding,margin,space,offset,0,programming,frontend,'padding' sets the padding.
+Which CSS property sets the border?,border,outline,frame,box,0,programming,frontend,'border' sets the border.
+Which CSS property sets the width?,width,height,size,length,0,programming,frontend,'width' sets the width.
+Which CSS property sets the height?,height,width,size,length,0,programming,frontend,'height' sets the height.
+Which tag is used for a dropdown list?,<select>,<dropdown>,<option>,<list>,0,programming,frontend,<select> is for dropdowns.
+Which tag is used for an option in a dropdown?,<option>,<select>,<dropdown>,<item>,0,programming,frontend,<option> is for options in dropdowns.
+Which tag is used for a button?,<button>,<input>,<submit>,<form>,0,programming,frontend,<button> is for buttons.
+Which CSS property sets the display type?,display,show,type,view,0,programming,frontend,'display' sets the display type.
+Which CSS property hides an element?,display:none,visibility:hide,hidden:true,show:false,0,programming,frontend,'display:none' hides an element.
+Which CSS property sets the position?,position,place,location,align,0,programming,frontend,'position' sets the position.
+Which CSS property sets the z-index?,z-index,index,z,layer,0,programming,frontend,'z-index' sets the stack order.
+Which CSS property sets the float?,float,align,position,move,0,programming,frontend,'float' sets the float.
+Which CSS property sets the overflow?,overflow,flow,scroll,hidden,0,programming,frontend,'overflow' sets the overflow.
+Which CSS property sets the opacity?,opacity,transparent,alpha,visibility,0,programming,frontend,'opacity' sets the opacity.
+Which CSS property sets the cursor?,cursor,pointer,mouse,select,0,programming,frontend,'cursor' sets the cursor.
+Which CSS property sets the transition?,transition,animate,move,change,0,programming,frontend,'transition' sets the transition.
+Which CSS property sets the transform?,transform,change,move,scale,0,programming,frontend,'transform' sets the transform.
+Which CSS property sets the box shadow?,box-shadow,shadow,box,outline,0,programming,frontend,'box-shadow' sets the box shadow.
+Which CSS property sets the text alignment?,text-align,align,justify,center,0,programming,frontend,'text-align' sets text alignment.
+Which CSS property sets the font family?,font-family,font-type,font,style,0,programming,frontend,'font-family' sets the font family.
+Which CSS property sets the background image?,background-image,image,background,picture,0,programming,frontend,'background-image' sets the background image.
+Which CSS property sets the border radius?,border-radius,round,border,curve,0,programming,frontend,'border-radius' sets the border radius.
+Which CSS property sets the list style?,list-style,style,list,bullet,0,programming,frontend,'list-style' sets the list style.
+Which CSS property sets the vertical alignment?,vertical-align,align,vertical,top,0,programming,frontend,'vertical-align' sets vertical alignment.
+Which CSS property sets the letter spacing?,letter-spacing,spacing,space,letter,0,programming,frontend,'letter-spacing' sets letter spacing.
+Which CSS property sets the line height?,line-height,height,line,spacing,0,programming,frontend,'line-height' sets the line height.
+Which CSS property sets the word spacing?,word-spacing,spacing,space,word,0,programming,frontend,'word-spacing' sets word spacing.
+Which CSS property sets the text decoration?,text-decoration,decoration,text,underline,0,programming,frontend,'text-decoration' sets text decoration.
+Which CSS property sets the min width?,min-width,width,min,max,0,programming,frontend,'min-width' sets the minimum width.
+Which CSS property sets the max width?,max-width,width,max,min,0,programming,frontend,'max-width' sets the maximum width.
+Which CSS property sets the min height?,min-height,height,min,max,0,programming,frontend,'min-height' sets the minimum height.
+Which CSS property sets the max height?,max-height,height,max,min,0,programming,frontend,'max-height' sets the maximum height.
+Which CSS property sets the outline?,outline,border,frame,box,0,programming,frontend,'outline' sets the outline.
+Which CSS property sets the resize?,resize,scale,change,move,0,programming,frontend,'resize' sets the resize.

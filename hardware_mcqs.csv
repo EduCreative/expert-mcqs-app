@@ -1,0 +1,54 @@
+question,option1,option2,option3,option4,answerIndex,categoryId,subcategoryId,explanation
+What is the main component of a computer?,Monitor,CPU,Keyboard,Mouse,1,computer,hardware,CPU (Central Processing Unit) is the main component that processes data.
+Which device stores data permanently?,RAM,Hard Drive,CPU,Monitor,1,computer,hardware,Hard Drive stores data permanently even when the computer is turned off.
+What is RAM short for?,Read Access Memory,Random Access Memory,Run All Memory,Ready Access Module,1,computer,hardware,RAM stands for Random Access Memory.
+Which part of the computer is responsible for graphics processing?,CPU,Hard Drive,GPU,Power Supply,2,computer,hardware,GPU (Graphics Processing Unit) handles graphics processing.
+Which device is used to input data into a computer?,Monitor,Keyboard,Speaker,Printer,1,computer,hardware,Keyboard is an input device used to enter data.
+Which is a type of non-volatile memory?,RAM,ROM,Cache,Register,1,computer,hardware,ROM (Read Only Memory) retains data even when power is off.
+What does SSD stand for?,Solid State Drive,Super Speed Drive,Simple Storage Device,Serial Storage Disk,0,computer,hardware,SSD stands for Solid State Drive.
+Which port is commonly used for monitors?,USB,HDMI,Audio,LAN,1,computer,hardware,HDMI is commonly used for connecting monitors.
+Which device is used to print documents?,Monitor,Keyboard,Printer,Mouse,2,computer,hardware,Printer is used to print documents.
+Which is an example of an output device?,Mouse,Monitor,Keyboard,Scanner,1,computer,hardware,Monitor is an output device.
+Which device is used to store large amounts of data?,RAM,Hard Drive,CPU,ROM,1,computer,hardware,Hard Drive stores large amounts of data.
+Which is a pointing device?,Monitor,Keyboard,Mouse,Speaker,2,computer,hardware,Mouse is a pointing device.
+Which is not a storage device?,SSD,CPU,Hard Drive,DVD,1,computer,hardware,CPU is not a storage device.
+Which is used to cool the CPU?,Fan,Speaker,Monitor,Keyboard,0,computer,hardware,Fan is used to cool the CPU.
+Which is a removable storage device?,RAM,SSD,USB Flash Drive,CPU,2,computer,hardware,USB Flash Drive is removable storage.
+Which is the brain of the computer?,Monitor,CPU,Mouse,Printer,1,computer,hardware,CPU is called the brain of the computer.
+Which is used to connect to a network?,NIC,CPU,Monitor,Keyboard,0,computer,hardware,NIC (Network Interface Card) connects to a network.
+Which is not an input device?,Mouse,Keyboard,Monitor,Scanner,2,computer,hardware,Monitor is not an input device.
+Which is used to backup data?,Printer,Scanner,External Hard Drive,Monitor,2,computer,hardware,External Hard Drive is used for backup.
+Which is a type of memory?,CPU,ROM,Monitor,Printer,1,computer,hardware,ROM is a type of memory.
+Which is used to display output?,Monitor,Keyboard,Mouse,Speaker,0,computer,hardware,Monitor displays output.
+Which is not a hardware component?,CPU,Operating System,Monitor,Mouse,1,computer,hardware,Operating System is software, not hardware.
+Which is used to power the computer?,CPU,Power Supply,Monitor,Mouse,1,computer,hardware,Power Supply provides power.
+Which is a storage device?,RAM,SSD,CPU,Monitor,1,computer,hardware,SSD is a storage device.
+Which is used to scan documents?,Printer,Scanner,Monitor,Mouse,1,computer,hardware,Scanner is used to scan documents.
+Which is a type of optical storage?,SSD,Hard Drive,DVD,CPU,2,computer,hardware,DVD is optical storage.
+Which is not a peripheral device?,Monitor,Mouse,CPU,Printer,2,computer,hardware,CPU is not a peripheral device.
+Which is used to hear sound from a computer?,Monitor,Speaker,Mouse,Keyboard,1,computer,hardware,Speaker is used to hear sound.
+Which is used to connect peripherals?,USB,HDMI,LAN,CPU,0,computer,hardware,USB connects peripherals.
+Which is a volatile memory?,RAM,ROM,SSD,Hard Drive,0,computer,hardware,RAM is volatile memory.
+Which is used to store BIOS?,RAM,ROM,CPU,Monitor,1,computer,hardware,BIOS is stored in ROM.
+Which is not a type of computer memory?,RAM,ROM,CPU,Cache,2,computer,hardware,CPU is not a type of memory.
+Which is used to display video output?,Monitor,Keyboard,Mouse,Speaker,0,computer,hardware,Monitor displays video output.
+Which is a type of expansion card?,NIC,Monitor,Mouse,Keyboard,0,computer,hardware,NIC is an expansion card.
+Which is used to input sound?,Speaker,Microphone,Monitor,Mouse,1,computer,hardware,Microphone is used to input sound.
+Which is not a hardware device?,Printer,Monitor,Mouse,Windows,3,computer,hardware,Windows is software.
+Which is used to store temporary data?,RAM,ROM,SSD,Monitor,0,computer,hardware,RAM stores temporary data.
+Which is a type of printer?,Laser,Monitor,Mouse,Keyboard,0,computer,hardware,Laser is a type of printer.
+Which is used to connect to the internet?,NIC,CPU,Monitor,Mouse,0,computer,hardware,NIC connects to the internet.
+Which is not an output device?,Monitor,Printer,Mouse,Speaker,2,computer,hardware,Mouse is not an output device.
+Which is used to store programs?,RAM,ROM,SSD,Monitor,2,computer,hardware,SSD stores programs.
+Which is a type of display?,LCD,Mouse,Keyboard,Speaker,0,computer,hardware,LCD is a type of display.
+Which is not a type of storage?,SSD,Hard Drive,Monitor,DVD,2,computer,hardware,Monitor is not storage.
+Which is used to print in color?,Laser Printer,Monitor,Mouse,Keyboard,0,computer,hardware,Laser Printer prints in color.
+Which is a type of port?,USB,CPU,Monitor,Mouse,0,computer,hardware,USB is a type of port.
+Which is used to store the operating system?,RAM,ROM,SSD,Monitor,2,computer,hardware,SSD stores the operating system.
+Which is not a type of monitor?,LCD,LED,CRT,CPU,3,computer,hardware,CPU is not a monitor.
+Which is used to connect to wireless networks?,Wi-Fi Adapter,Monitor,Mouse,Keyboard,0,computer,hardware,Wi-Fi Adapter connects to wireless networks.
+Which is a type of cable?,HDMI,CPU,Monitor,Mouse,0,computer,hardware,HDMI is a type of cable.
+Which is not a hardware port?,USB,HDMI,LAN,Windows,3,computer,hardware,Windows is not a hardware port.
+Which is used to store user files?,RAM,SSD,CPU,Monitor,1,computer,hardware,SSD stores user files.
+Which is a type of memory module?,DIMM,Monitor,Mouse,Keyboard,0,computer,hardware,DIMM is a memory module.
+Which is not a hardware interface?,USB,HDMI,LAN,Excel,3,computer,hardware,Excel is not a hardware interface.
