@@ -1,0 +1,20 @@
+    // Allow users to add comments, but only admins can update/delete/approve
+    match /comments/{commentId} {
+      allow create: if request.auth != null;
+      allow update, delete: if request.auth != null && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.isAdmin == true;
+      allow read: if true;
+    }
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Allow admins to read/write users collection
+    match /users/{userId} {
+      allow read, write: if request.auth != null && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.isAdmin == true;
+    }
+    // Allow admins to read/write mcqs collection
+    match /mcqs/{mcqId} {
+      allow read, write: if request.auth != null && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.isAdmin == true;
+    }
+    // Add other collections as needed
+  }
+}

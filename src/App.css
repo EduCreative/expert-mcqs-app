@@ -1,0 +1,77 @@
+/* TopBar logo style */
+
+/* .topbar-logo {
+  width: 10px !important;
+  height: 10px !important;
+  max-width: 10px !important;
+  max-height: 10px !important;
+  min-width: 10px !important;
+  min-height: 10px !important;
+} */
+
+@media (max-width: 600px) {
+  .MuiTypography-h6 {
+    font-size: 1.1rem !important;
+  }
+  .MuiTypography-body2,
+  .MuiButton-root,
+  .MuiButton-label {
+    font-size: 0.85rem !important;
+  }
+  .MuiButton-root {
+    min-width: 32px !important;
+    padding: 2px 8px !important;
+  }
+  .MuiToolbar-root {
+    min-height: 44px !important;
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+  }
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Admin CSV input style moved from inline */
+.admin-csv-input {
+  margin-bottom: 8px;
+}

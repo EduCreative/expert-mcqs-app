@@ -1,0 +1,9 @@
+question,option1,option2,option3,option4,answerIndex,categoryId,subcategoryId,explanation
+What is the synonym of "happy"?,Sad,Joyful,Angry,Worried,1,english,vocabulary,Joyful is a synonym of happy, meaning feeling or showing pleasure.
+Which programming language is used for web development?,C++,Java,Python,JavaScript,3,programming,frontend,JavaScript is the primary language for frontend web development.
+What is the main component of a computer?,Monitor,CPU,Keyboard,Mouse,1,computer,hardware,CPU (Central Processing Unit) is the main component that processes data.
+What is the opposite of "big"?,Large,Huge,Small,Great,2,english,vocabulary,Small is the opposite of big, meaning of a size that is less than normal.
+Which device stores data permanently?,RAM,Hard Drive,CPU,Monitor,1,computer,hardware,Hard Drive stores data permanently even when the computer is turned off.
+Which tag is used for the largest heading in HTML?,<h1>,<h2>,<h3>,<title>,0,programming,frontend,<h1> is used for the largest heading in HTML.
+What is RAM short for?,Read Access Memory,Random Access Memory,Run All Memory,Ready Access Module,1,computer,hardware,RAM stands for Random Access Memory.
+Which word is an antonym of "ancient"?,Old,Modern,Historic,Antique,1,english,vocabulary,Modern is an antonym of ancient.
