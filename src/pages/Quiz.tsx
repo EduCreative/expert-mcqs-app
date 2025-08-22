@@ -1,14 +1,21 @@
 import { useEffect, useState } from 'react'
-import { Box, Button, Card, CardContent, Chip, Divider, IconButton, Stack, TextField, Typography } from '@mui/material'
+import { Box, Button, Card, CardContent, CardActionArea, Divider, IconButton, Stack, TextField, Typography } from '@mui/material'
 import FavoriteIcon from '@mui/icons-material/Favorite'
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder'
 
 import Shell from '../layout/Shell'
+import HomeIcon from '@mui/icons-material/Home';
+import QuizIcon from '@mui/icons-material/Quiz'
+import SchoolIcon from '@mui/icons-material/School'
+import ContactPageIcon from '@mui/icons-material/ContactPage'
+import DashboardIcon from '@mui/icons-material/Dashboard'
+import AddCardIcon from '@mui/icons-material/AddCard'
+import InfoIcon from '@mui/icons-material/Info'
+
 import { addFavorite, incrementUserScore, addUserComment, fetchComments, fetchCategories, fetchMCQsByCategorySequential } from '../services/db'
 import type { Category, MCQ } from '../types'
 import { useAuth } from '../providers/AuthProvider'
-
-
+import type { Theme } from '@mui/material/styles'
 
 export default function Quiz() {
   const { user, refreshUser } = useAuth()
@@ -55,13 +62,14 @@ export default function Quiz() {
   const current = mcqs[index]
   // Main navigation options for hamburger menu
   const leftItems = [
-    { label: 'Home', href: '#/' },
-    { label: 'Practice', href: '#/practice' },
-    { label: 'Quiz', href: '#/quiz' },
-    { label: 'Favorites', href: '#/favorites' },
-    { label: 'Submit MCQs', href: '#/submit' },
-    { label: 'About Us', href: '#/about' },
-    { label: 'Contact Us', href: '#/contact' },
+    { label: 'Home', href: '#/', icon: <HomeIcon color="primary" /> },
+    { label: 'Dashboard', href: '#/dashboard', icon: <DashboardIcon color="primary" /> },
+    { label: 'Practice', href: '#/practice', icon: <SchoolIcon color="primary" /> },
+    { label: 'Quiz', href: '#/quiz', icon: <QuizIcon color="secondary" /> },
+    { label: 'Favorites', href: '#/favorites', icon: <FavoriteIcon color="primary" />},
+    { label: 'Submit MCQs', href: '#/submit', icon: <AddCardIcon color="primary" /> },
+    { label: 'About Us', href: '#/about', icon: <InfoIcon color="primary" /> },
+    { label: 'Contact Us', href: '#/contact', icon: <ContactPageIcon color="primary" /> },
   ]
 
   return (
@@ -69,37 +77,22 @@ export default function Quiz() {
       <Typography variant="h5" sx={{ mb: 2 }}>Quiz Mode</Typography>
       <Stack direction="row" spacing={2} sx={{ flexWrap: 'wrap', mb: 3 }}>
         {categories.map((c) => (
-          <Box
-            key={c.id}
-            onClick={() => { setCategoryId(c.id); setSubcategoryId('') }}
-            sx={{
-              width: 80,
-              height: 80,
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'center',
-              justifyContent: 'center',
-              borderRadius: 2,
-              boxShadow: c.id === categoryId ? 3 : 1,
-              border: c.id === categoryId ? '2px solid #6366f1' : '1px solid #eee',
-              bgcolor: c.id === categoryId ? 'primary.light' : 'background.paper',
-              cursor: 'pointer',
-              transition: 'all 0.2s',
-              m: 0.5,
-              p: 1,
-            }}
-          >
-            <Box sx={{ fontSize: 32, mb: 0.5 }}>
-              {c.imageUrl ? (
-                <img src={c.imageUrl} alt={c.name} style={{ width: 36, height: 36, objectFit: 'cover', borderRadius: 8 }} />
-              ) : (
-                c.icon || '📚'
-              )}
-            </Box>
-            <Typography variant="body2" sx={{ textAlign: 'center', fontWeight: 500, fontSize: 14, color: c.id === categoryId ? 'primary.main' : 'text.primary', wordBreak: 'break-word' }}>
-              {c.name}
-            </Typography>
-          </Box>
+          <Card key={c.id} sx={{ width: 120, height: 120, m: 0.5, boxShadow: c.id === categoryId ? 4 : 1, border: c.id === categoryId ? '2px solid #6366f1' : '1px solid #eee', bgcolor: c.id === categoryId ? 'primary.dark' : 'background.paper', borderRadius: 3, cursor: 'pointer', transition: 'all 0.2s' }} onClick={() => { setCategoryId(c.id); setSubcategoryId('') }}>
+            <CardActionArea sx={{ height: '100%' }}>
+              <CardContent sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100%', p: 1 }}>
+                <Box sx={{ fontSize: 40, mb: 1 }}>
+                  {c.imageUrl ? (
+                    <img src={c.imageUrl} alt={c.name} style={{ width: 40, height: 40, objectFit: 'cover', borderRadius: 8 }} />
+                  ) : (
+                    c.icon || '📚'
+                  )}
+                </Box>
+                <Typography variant="body2" sx={{ textAlign: 'center', fontWeight: 600, fontSize: 16, color: c.id === categoryId ? 'primary.main' : 'text.primary', wordBreak: 'break-word' }}>
+                  {c.name}
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+          </Card>
         ))}
       </Stack>
       {/* Subcategories - require selection before showing MCQs */}
@@ -109,33 +102,18 @@ export default function Quiz() {
           return (
             <Stack direction="row" spacing={2} sx={{ flexWrap: 'wrap', mb: 2 }}>
               {cat.subcategories.map((sub: any) => (
-                <Box
-                  key={sub.id}
-                  onClick={() => setSubcategoryId(sub.id)}
-                  sx={{
-                    width: 64,
-                    height: 64,
-                    display: 'flex',
-                    flexDirection: 'column',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    borderRadius: 2,
-                    boxShadow: sub.id === subcategoryId ? 2 : 0,
-                    border: sub.id === subcategoryId ? '2px solid #6366f1' : '1px solid #eee',
-                    bgcolor: sub.id === subcategoryId ? 'primary.light' : 'background.paper',
-                    cursor: 'pointer',
-                    transition: 'all 0.2s',
-                    m: 0.5,
-                    p: 1,
-                  }}
-                >
-                  <Box sx={{ fontSize: 26, mb: 0.5 }}>
-                    {sub.icon || '📚'}
-                  </Box>
-                  <Typography variant="body2" sx={{ textAlign: 'center', fontWeight: 500, fontSize: 12, color: sub.id === subcategoryId ? 'primary.main' : 'text.primary', wordBreak: 'break-word' }}>
-                    {sub.name}
-                  </Typography>
-                </Box>
+                <Card key={sub.id} sx={{ width: 90, height: 90, m: 0.5, boxShadow: sub.id === subcategoryId ? 3 : 1, border: sub.id === subcategoryId ? '2px solid #2a2b6dff' : '1px solid #eee', bgcolor: sub.id === subcategoryId ? 'primary.dark' : 'background.paper', borderRadius: 1, cursor: 'pointer', transition: 'all 0.2s' }} onClick={() => setSubcategoryId(sub.id)}>
+                  <CardActionArea sx={{ height: '100%' }}>
+                    <CardContent sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100%', p: 1 }}>
+                      <Box sx={{ fontSize: 28, mb: 1 }}>
+                        {sub.icon || '📚'}
+                      </Box>
+                      <Typography variant="body2" sx={{ textAlign: 'center', fontWeight: 600, fontSize: 13, color: sub.id === subcategoryId ? 'primary.main' : 'text.primary', wordBreak: 'break-word' }}>
+                        {sub.name}
+                      </Typography>
+                    </CardContent>
+                  </CardActionArea>
+                </Card>
               ))}
             </Stack>
           )
@@ -182,18 +160,39 @@ export default function Quiz() {
                     borderRadius: 2,
                     fontSize: 17,
                     cursor: answered ? 'default' : 'pointer',
-                    border: '1px solid #eee',
+                    border: (theme: Theme) => `1px solid ${theme.palette.mode === 'dark' ? '#333a4d' : '#eee'}`,
+                    //border: '2px solid #ef4444',
                     fontWeight: 400,
-                    backgroundColor: '#f5f5f5', // action.hover equivalent
+                    backgroundColor: (theme: Theme) => theme.palette.mode === 'dark' ? '#181f36' : '#f5f5f5',
+                    color: (theme: Theme) => theme.palette.text.primary,
+                    transition: 'all 0.2s',
                   };
                   if (!answered && selected === i) {
-                    sx = { ...sx, backgroundColor: '#c7d2fe', border: '2px solid #6366f1', fontWeight: 600 };
+                    sx = {
+                      ...sx,
+                      backgroundColor: (theme: Theme) => theme.palette.mode === 'dark' ? '#22306d' : '#c7d2fe',
+                      border: (theme: Theme) => `2px solid ${theme.palette.primary.main}`,
+                      //border: '2px solid #ef4444',
+                      fontWeight: 600,
+                    };
                   }
                   if (answered) {
                     if (i === current.answerIndex) {
-                      sx = { ...sx, backgroundColor: '#bbf7d0', border: '2px solid #22c55e', fontWeight: 600 };
+                      sx = {
+                        ...sx,
+                        backgroundColor: (theme: Theme) => theme.palette.mode === 'dark' ? '#1e3a2a' : '#bbf7d0',
+                        //border: (theme: Theme) => `2px solid #22c55e`,
+                        border: '2px solid #22c55e',
+                        fontWeight: 600,
+                      };
                     } else if (selected === i && selected !== current.answerIndex) {
-                      sx = { ...sx, backgroundColor: '#fecaca', border: '2px solid #ef4444', fontWeight: 600 };
+                      sx = {
+                        ...sx,
+                        backgroundColor: (theme: Theme) => theme.palette.mode === 'dark' ? '#4b1e1e' : '#fecaca',
+                        //border: (theme: Theme) => `2px solid #ef4444`,
+                        border: '2px solid #ef4444',
+                        fontWeight: 600,
+                      };
                     } else {
                       sx = { ...sx, opacity: 0.7 };
                     }
@@ -308,5 +307,3 @@ export default function Quiz() {
     </Shell>
   )
 }
-
-

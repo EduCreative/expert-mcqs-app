@@ -1,5 +1,8 @@
+import { UIProvider } from './providers/UIProvider';
 import { Component } from 'react';
 import type { ReactNode } from 'react';
+import { AuthProvider } from './providers/AuthProvider';
+
 // Simple error boundary for debugging blank screens
 class ErrorBoundary extends Component<{ children: ReactNode }, { error: any }> {
   constructor(props: any) {
@@ -29,8 +32,8 @@ import Favorites from './pages/Favorites'
 import Submit from './pages/Submit'
 import About from './pages/About'
 import Contact from './pages/Contact'
-import { AuthProvider } from './providers/AuthProvider'
-import { UIProvider } from './providers/UIProvider'
+
+import Dashboard from './pages/Dashboard'
 
 function App() {
   return (
@@ -48,6 +51,7 @@ function App() {
               <Route path="/submit" element={<Submit />} />
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/dashboard" element={<Dashboard />} />
             </Routes>
           </HashRouter>
         </AuthProvider>

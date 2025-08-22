@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Box, Drawer, List, ListItemButton, ListItemText, Divider, Container } from '@mui/material'
 import TopBar from '../components/TopBar'
 
-export default function Shell({ leftItems, children }: { leftItems: { label: string; href: string }[]; children: React.ReactNode }) {
+export default function Shell({ leftItems, children }: { leftItems: { label: string; href: string; icon?: React.ReactNode}[]; children: React.ReactNode }) {
   const [open, setOpen] = useState(false)
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100dvh', width: '100%' }}>
@@ -12,6 +12,7 @@ export default function Shell({ leftItems, children }: { leftItems: { label: str
           <List>
             {leftItems.map((i) => (
               <ListItemButton key={i.href} component="a" href={i.href}>
+                {i.icon && <Box sx={{ minWidth: 32, display: 'flex', alignItems: 'center', mr: 1 }}>{i.icon}</Box>}
                 <ListItemText primary={i.label} />
               </ListItemButton>
             ))}

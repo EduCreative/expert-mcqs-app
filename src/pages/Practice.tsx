@@ -11,6 +11,15 @@ import { useSearchParams } from 'react-router-dom'
 import { useAuth } from '../providers/AuthProvider'
 import { useUI } from '../providers/UIProvider'
 
+import HomeIcon from '@mui/icons-material/Home';
+import QuizIcon from '@mui/icons-material/Quiz'
+import SchoolIcon from '@mui/icons-material/School'
+import ContactPageIcon from '@mui/icons-material/ContactPage'
+import DashboardIcon from '@mui/icons-material/Dashboard'
+import AddCardIcon from '@mui/icons-material/AddCard'
+import InfoIcon from '@mui/icons-material/Info'
+
+
 export default function Practice() {
   const { user } = useAuth()
   const [categories, setCategories] = useState<Category[]>([])
@@ -58,16 +67,16 @@ export default function Practice() {
     localStorage.setItem('lastSeenPractice', JSON.stringify({ cat: categoryId, i: index + 1 }))
   }, [index, categoryId, mcqs.length])
 
-  const leftItems = [
-    { label: 'Home', href: '#/' },
-    { label: 'Practice', href: '#/practice' },
-    { label: 'Quiz', href: '#/quiz' },
-    { label: 'Favorites', href: '#/favorites' },
-    { label: 'Submit MCQs', href: '#/submit' },
-    { label: 'About Us', href: '#/about' },
-    { label: 'Contact Us', href: '#/contact' },
+const leftItems = [
+    { label: 'Home', href: '#/', icon: <HomeIcon color="primary" /> },
+    { label: 'Dashboard', href: '#/dashboard', icon: <DashboardIcon color="primary" /> },
+    { label: 'Practice', href: '#/practice', icon: <SchoolIcon color="primary" /> },
+    { label: 'Quiz', href: '#/quiz', icon: <QuizIcon color="secondary" /> },
+    { label: 'Favorites', href: '#/favorites', icon: <FavoriteIcon color="primary" />},
+    { label: 'Submit MCQs', href: '#/submit', icon: <AddCardIcon color="primary" /> },
+    { label: 'About Us', href: '#/about', icon: <InfoIcon color="primary" /> },
+    { label: 'Contact Us', href: '#/contact', icon: <ContactPageIcon color="primary" /> },
   ]
-
   const current = mcqs[index]
 
   return (
