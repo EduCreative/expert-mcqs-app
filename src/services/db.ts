@@ -26,17 +26,39 @@ export async function fetchCategories(): Promise<Category[]> {
 
 export async function fetchMCQsByCategorySequential(
   categoryId: string,
-  limitCount = 100,
+  //limitCount = 1000,
 ): Promise<MCQ[]> {
   const q = query(
     collection(db, 'mcqs'),
     where('categoryId', '==', categoryId),
     where('approved', '==', true),
-    limit(limitCount),
+    //limit(limitCount),
   )
   const snap = await getDocs(q)
   return snap.docs.map((d) => ({ id: d.id, ...(d.data() as any) }))
 }
+
+export async function fetchMCQsByCategoryRandom(
+  categoryId: string,
+): Promise<MCQ[]> {
+  const q = query(
+    collection(db, 'mcqs'),
+    where('categoryId', '==', categoryId),
+    where('approved', '==', true)
+  )
+
+  const snap = await getDocs(q)
+  const mcqs: MCQ[] = snap.docs.map((d) => ({ id: d.id, ...(d.data() as any) }))
+
+  // Fisher-Yates shuffle
+  for (let i = mcqs.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[mcqs[i], mcqs[j]] = [mcqs[j], mcqs[i]]
+  }
+
+  return mcqs
+}
+
 
 export async function addUserComment(
   mcqId: string,

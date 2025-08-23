@@ -12,7 +12,7 @@ import DashboardIcon from '@mui/icons-material/Dashboard'
 import AddCardIcon from '@mui/icons-material/AddCard'
 import InfoIcon from '@mui/icons-material/Info'
 
-import { addFavorite, incrementUserScore, addUserComment, fetchComments, fetchCategories, fetchMCQsByCategorySequential } from '../services/db'
+import { addFavorite, incrementUserScore, addUserComment, fetchComments, fetchCategories, fetchMCQsByCategoryRandom } from '../services/db'
 import type { Category, MCQ } from '../types'
 import { useAuth } from '../providers/AuthProvider'
 import type { Theme } from '@mui/material/styles'
@@ -46,7 +46,8 @@ export default function Quiz() {
       setIndex(0)
       return
     }
-    fetchMCQsByCategorySequential(categoryId, 100).then((data) => {
+    //fetchMCQsByCategorySequential(categoryId, 100).then((data) => {
+    fetchMCQsByCategoryRandom(categoryId).then((data) => {
       let filtered = data
       if (subcategoryId) {
         filtered = data.filter((mcq) => mcq.subcategoryId === subcategoryId)

@@ -49,7 +49,7 @@ export default function Practice() {
     if (!categoryId) return
     const idxFromUrl = parseInt(searchParams.get('i') || '1')
     // If subcategoryId is set, filter MCQs by subcategoryId (if you store subcategoryId in MCQ)
-    fetchMCQsByCategorySequential(categoryId, 100).then((data) => {
+    fetchMCQsByCategorySequential(categoryId).then((data) => {
       let filtered = data
       if (subcategoryId) {
         filtered = data.filter((mcq) => (mcq.subcategoryId === subcategoryId))
