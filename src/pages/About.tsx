@@ -67,7 +67,7 @@ export default function About() {
 
         <Box sx={{ mt: 2, fontWeight: 500 }}>
           <ul style={{ marginLeft: '20px' }}>
-            <li>📱 WhatsApp: <strong>0333-1306603</strong></li>
+            <li>📱 WhatsApp: <strong>+92333-1306603</strong></li>
             <li>📧 Email: <strong>kmasroor50@gmail.com</strong></li>
           </ul>
         </Box>

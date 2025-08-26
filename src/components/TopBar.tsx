@@ -45,7 +45,7 @@ export default function TopBar({ onToggleLeftMenu, onOpenTopMenu }: TopBarProps)
 							<MenuIcon />
 						</IconButton>
 					</Box>
-					<img src="/icons/icon.png" width="40" alt="logo" className="topbar-logo" />
+					<img src="/icons/icon.svg" width="40" alt="logo" className="topbar-logo" />
 					<Typography variant="h6" sx={{ fontWeight: 800, fontSize: { xs: 20, md: 32 } }}>Expert MCQs</Typography>
 					{/* InstallPWA next to app name in desktop */}
 					<Box sx={{ display: { xs: 'none', md: 'flex' }, alignItems: 'center', ml: 2 }}>
