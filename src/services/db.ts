@@ -207,6 +207,49 @@ export async function fetchUsers(limitCount = 200): Promise<UserProfile[]> {
   return snap.docs.map((d) => ({ uid: d.id, ...(d.data() as any) }))
 }
 
+// Fetch all MCQs
+export async function fetchMCQs(): Promise<MCQ[]> {
+  const mcqsSnapshot = await getDocs(collection(db, "mcqs"));
+  return mcqsSnapshot.docs.map(doc => ({
+    id: doc.id,
+    ...(doc.data() as Omit<MCQ, "id">),
+  }));
+}
+
+export async function getMCQs() {
+  const snapshot = await getDocs(collection(db, "mcqs"));
+  return snapshot.docs.map((doc) => ({
+    id: doc.id,
+    ...doc.data(),
+  }));
+}
+
+export const getMCQsByCategory = async (category: string) => {
+  const q = query(
+    collection(db, "mcqs"),
+    where("category", "==", category)
+  );
+  const snapshot = await getDocs(q);
+  return snapshot.docs.map((doc) => ({
+    id: doc.id,
+    ...doc.data(),
+  }));
+};
+
+export const getUserProgress = async (uid: string) => {
+  const userRef = doc(db, "users", uid);
+  const userSnap = await getDoc(userRef);
+
+  if (!userSnap.exists()) {
+    return { answeredMCQs: {}, scoreByCategory: {} };
+  }
+
+  const data = userSnap.data();
+  return {
+    answeredMCQs: data.answeredMCQs || {},
+    scoreByCategory: data.scoreByCategory || {},
+  };
+};
 
 // Firestore imports
 import {
@@ -225,5 +268,3 @@ import {
 } from 'firebase/firestore';
 import { db } from '../firebase';
 import type { MCQ, Category, UserProfile, Comment } from '../types';
-
-
